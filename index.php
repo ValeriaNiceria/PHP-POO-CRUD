@@ -22,7 +22,7 @@ $result = $crud->getData($query);
 			<h1 class="text-center">Lista de usuários</h1>
 		</div>
 		<div class="col-lg-2">
-			<a href="" class="btn btn-success">Adicionar usuário</a><br/>
+			<a href="add.html" class="btn btn-success">Adicionar usuário</a><br/>
 		</div>
 
 	</div>
