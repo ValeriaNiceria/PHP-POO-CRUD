@@ -44,7 +44,7 @@ class Crud extends DbConfig {
 		$result = $this->connection->query($query);
 
 		if (!$result) {
-			echo 'Error ao tentar deletar o usuário de id ' . $id . ' da tabela ' . $table;
+			echo '<span class="alert alert-danger text-center mt-3">Error ao tentar deletar o usuário de id ' . $id . ' da tabela ' . $table . '</span>';
 			return FALSE;
 		} else {
 			return TRUE;
